@@ -1,0 +1,32 @@
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(254, 255, 255, 0.075);
+    box-shadow: 0 8px 8px 0 rgba(237, 239, 255, 0.144);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+}
+
+#logo {
+    height: 80%;
+    margin: 10px;
+}
+
+.div-name {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script';
+}
+
+nav {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
