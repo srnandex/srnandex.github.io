@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f3fa256.css",
-    "main.js": "/static/js/main.df42ec64.js",
+    "main.css": "/static/css/main.39313439.css",
+    "main.js": "/static/js/main.1cf326ce.js",
     "static/js/787.be55e6d0.chunk.js": "/static/js/787.be55e6d0.chunk.js",
     "static/media/connection_png_313644.png": "/static/media/connection_png_313644.6bf53385c9d90e889687.png",
+    "static/media/Curriculo_Fernando_Rocha.pdf": "/static/media/Curriculo_Fernando_Rocha.b853740dc631bca1074c.pdf",
     "static/media/Sem título-1.svg": "/static/media/Sem título-1.9dc110045faf9d008107099f18810549.svg",
     "index.html": "/index.html",
-    "main.2f3fa256.css.map": "/static/css/main.2f3fa256.css.map",
-    "main.df42ec64.js.map": "/static/js/main.df42ec64.js.map",
+    "main.39313439.css.map": "/static/css/main.39313439.css.map",
+    "main.1cf326ce.js.map": "/static/js/main.1cf326ce.js.map",
     "787.be55e6d0.chunk.js.map": "/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f3fa256.css",
-    "static/js/main.df42ec64.js"
+    "static/css/main.39313439.css",
+    "static/js/main.1cf326ce.js"
   ]
 }
