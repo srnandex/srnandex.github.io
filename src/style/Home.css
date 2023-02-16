@@ -10,9 +10,9 @@
 }
 
 #conection {
-    opacity: 15%;
-    width: 100%;
-    position: fixed;
+    opacity: 25%;
+    max-width: 70%;
+    position: absolute;
     --x-pos: 0;
     --y-angle: calc(var(--x-pos) * 10deg);
    
@@ -27,7 +27,7 @@
 
 .name_animation{
     width: 100%;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     animation: digitando 3s steps(25), blink .4s infinite alternate;
@@ -50,14 +50,14 @@
 }
 
 #logo2 {
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
 }
 
 .pulse {
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
@@ -105,7 +105,39 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    z-index: 2;
 }
+
+@media screen and (max-width: 700px) {
+    .name_animation{
+        width: 100%;
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        animation: digitando 3s steps(25), blink .4s infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid;
+        margin-top: 20px;
+    }
+
+    #logo2 {
+        width: 80px;
+        height: 80px;
+        
+    }
+    
+    .pulse {
+        width: 80px;
+        height: 80px;
+    }
+
+    #conection {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+}
+
 
 /* .name-logo {
     display: flex;

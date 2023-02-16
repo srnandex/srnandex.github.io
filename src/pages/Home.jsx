@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import logo from '../img/Sem título-1.svg'
 import '../style/Home.css'
 import RedeConnect from '../img/connection_png_313644.png'
+import Footer from '../components/Footer';
 // import fotoFernando from  '../img/fotoFernando.jpg'
 
 function Home() {
@@ -37,6 +38,7 @@ container.addEventListener('mousemove', efeito)
         </div>
         <img id='conection' src={ RedeConnect } alt="conect" />
       </div>
+      <Footer />
     </div>
   );
 }
