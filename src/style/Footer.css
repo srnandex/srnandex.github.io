@@ -7,10 +7,9 @@ i {
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    width: 100vw;
+    width: 100%;
     background-color: #151823;
     color: #666873;
-    position: absolute;
     bottom: 0;
     left: 0;
 }

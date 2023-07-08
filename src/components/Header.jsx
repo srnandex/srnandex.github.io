@@ -20,13 +20,6 @@ function Header() {
                 </ul>
             </div>
         </nav>
-        {/* <nav>
-        <a href="#">Home</a>
-        <a href="#">Projetos</a>
-        <a href="#">Tecnologias</a>
-        <a download href={ Curriculo }>Sobre</a>
-        <a href="#">Contato</a>
-      </nav> */}
     </header>
   );
 }
