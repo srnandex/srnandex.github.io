@@ -27,6 +27,7 @@ function updateElementPosition(element, event) {
 }
 
 function startDrag(element, event) {
+  document.body.style.overflow = 'hidden';
   const updateFunction = (event) => updateElementPosition(element, event);
   const stopFunction = () => stopDrag({update: updateFunction, stop: stopFunction});
   document.addEventListener("mousemove", updateFunction);
@@ -36,6 +37,7 @@ function startDrag(element, event) {
 }
 
 function stopDrag(functions) {
+  document.body.style.overflow = null;
   previousTouch = undefined;
   document.removeEventListener("mousemove", functions.update);
   document.removeEventListener("touchmove", functions.update);
