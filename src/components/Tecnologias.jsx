@@ -46,7 +46,7 @@ function stopDrag(functions) {
 }
 
 pictures.forEach(picture => {
-  const range = 50;
+  const range = 30;
   const randomX = Math.random() * (range * 2) - range;
   const randomY = Math.random() * (range * 2) - range;
   const randomRotate = Math.random() * (range / 2) - range / 4;

@@ -2,11 +2,16 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 500px;
+    /* background-color: black; */
+    background-image: linear-gradient(45deg, rgb(28, 0, 94), rgb(0, 17, 167), rgb(55, 36, 100));
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    padding-top: 120px;
 }
 
 #conection {
-    opacity: 30%;
+    /* opacity: 30%; */
     max-width: 70%;
     position: absolute;
     --x-pos: 0;

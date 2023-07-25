@@ -11,10 +11,9 @@ function Presentation() {
         const { width, height } = container.getBoundingClientRect();
       
         const efeito = (event) => {
-          const { offsetX, offsetY } = event;
-      
-          card.style.setProperty('--x-pos', (offsetX / width) - 0.3);
-          card.style.setProperty('--y-pos', (offsetY / height) - 0.3);
+          const { offsetX, offsetY} = event;
+        card.style.setProperty('--x-pos', (offsetX / width) - 0.5);
+        card.style.setProperty('--y-pos', (offsetY / height) - 0.5);
       }
       
       container.addEventListener('mousemove', efeito)
